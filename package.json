@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "start": "react-scripts start",   
-    "vite": "vite",
+    "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "dev":"npm run build && npm run preview --host"
+    "build:preview":"npm run build && npm run preview --host"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
